@@ -16,7 +16,10 @@ var UserView = React.createClass({
                         {this.state.user.name}
                     </h2>
                     //{this.state.user.full_address}
+                    <div className="row">{this.state.user.review_count}</div>
                 </div>
+
+                 //<div className=
             )
 
         }else{
